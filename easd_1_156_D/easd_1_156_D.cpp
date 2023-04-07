@@ -22,11 +22,11 @@ using namespace std;
 
 const int MAX_DATA = 76;
 
-void input(int data[], int n) {
+void input(int nico[], int n) {
 	cout << "massukan" << n << "angka:" << endl;
 	for (int i = 0; i < n; i++) {
 		cout << "data ke-" << i + 1 << ": ";
-		cin >> data[i];
+		cin >>nico[i];
 	}
 }
 
