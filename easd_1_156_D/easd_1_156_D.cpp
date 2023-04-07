@@ -1,4 +1,4 @@
-//1.untuk menyeesaikan suatu masalah karena algoritma merupakan yang di rancang untuk menylesaikan masalah
+//1.untuk menyelesaikan suatu masalah karena algoritma merupakan yang di rancang untuk menylesaikan masalah
 //2.linear data structure dan non-linear data structure
 //3.ukuran input:semakin besar ukuran input maka semkain  lama juga waktu yang di perluhkan,proceceor:procecor juga sangat mempergaruhi ke efisienan sutau kinerja lagoritma semkain bagus besar maka bisa semakin cepat,penggunaan memory:memory juga bisa mmepergaruhi efiensi program algoritma jika pemrgorman menggunakan memory secara berlebihan maka akan memperlambat kinerja sutau pemgroman
 //4.selection sort
