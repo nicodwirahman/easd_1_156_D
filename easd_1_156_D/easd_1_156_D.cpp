@@ -30,24 +30,35 @@ void input(int data[], int n) {
 	}
 }
 
-void selection(int data[], int n) {
+void selection(int nico[], int n) {
 	int fa;
 	for (fa = 0; fa < n - 1; fa++) {
 		int min_index = fa;
 		for (int i = fa+1; i < n; i++){
-			if (data[i] < data[min_index]) {
+			if (nico[i] < nico[min_index]) {
 				min_index = i;
 			}
 
 		}
-	swap(data[fa], data[min_index]);
+	swap(nico[fa], nico[min_index]);
 	}
 }
 
-void display(int data[], int n) {
+void display(int nico[], int n) {
 	cout << "hasil selection sort:" << endl;
 	for (int i = 0; i < n; i++) {
-		cout << data[i] << " ";
+		cout << nico[i] << " ";
 	}
 	cout << endl;
+}
+
+int main(){
+	int nickname[MAX_DATA];
+	int n = MAX_DATA;
+
+	input(nickname, n);
+	selection(nickname, n);
+	display(nickname, n);
+
+	return 0;
 }
