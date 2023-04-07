@@ -29,3 +29,17 @@ void input(int data[], int n) {
 		cin >> data[i];
 	}
 }
+
+void selection(int data[], int n) {
+	int fa;
+	for (fa = 0; fa < n - 1; fa++) {
+		int min_index = fa;
+		for (int i = fa+1; i < n; i++){
+			if (data[i] < data[min_index]) {
+				min_index = i;
+			}
+
+		}
+	swap(data[fa], data[min_index]);
+	}
+}
