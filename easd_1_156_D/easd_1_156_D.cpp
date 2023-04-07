@@ -21,3 +21,11 @@
 using namespace std;
 
 const int MAX_DATA = 33;
+
+void input(int data[], int n) {
+	cout << "massukan" << n << "angka:" << endl;
+	for (int i = 0; i < n; i++) {
+		cout << "data ke-" << i + 1 << ": ";
+		cin >> data[i];
+	}
+}
