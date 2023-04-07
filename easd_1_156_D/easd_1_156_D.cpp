@@ -20,7 +20,7 @@
 #include <string>
 using namespace std;
 
-const int MAX_DATA = 33;
+const int MAX_DATA = 76;
 
 void input(int data[], int n) {
 	cout << "massukan" << n << "angka:" << endl;
