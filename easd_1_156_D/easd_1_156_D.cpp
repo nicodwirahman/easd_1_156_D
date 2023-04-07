@@ -43,3 +43,11 @@ void selection(int data[], int n) {
 	swap(data[fa], data[min_index]);
 	}
 }
+
+void display(int data[], int n) {
+	cout << "hasil selection sort:" << endl;
+	for (int i = 0; i < n; i++) {
+		cout << data[i] << " ";
+	}
+	cout << endl;
+}
